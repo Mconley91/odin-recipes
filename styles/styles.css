@@ -1,0 +1,36 @@
+body {
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(85, 74, 62)
+}
+hr {
+    width: 50%;
+}
+img {
+    border: solid 2px black;
+    height: 200px;
+}
+
+h3 {
+    border-bottom: 3px solid;
+    border-radius: 10%;
+    width:fit-content
+}
+a:visited{
+    color:rgb(223, 212, 212);
+}
+
+#menu {
+    background-color: rgb(150, 133, 113);
+    width:300px;
+    height:fit-content;
+    border: dashed 3px black;
+    padding: 5px;
+    margin:auto;
+}
+#main-title {
+    text-align: center;
+}
+#menu-title {
+    margin:5px auto 5px auto;
+}
