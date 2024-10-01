@@ -9,28 +9,39 @@ hr {
 img {
     border: solid 2px black;
     height: 200px;
+    display: block;
+    margin: auto;
 }
-
+h1 {
+    text-align: center;
+}
 h3 {
     border-bottom: 3px solid;
     border-radius: 10%;
     width:fit-content
 }
+a {
+    color:rgb(0, 0, 0);
+}
 a:visited{
-    color:rgb(223, 212, 212);
+    color:rgb(156, 112, 61);
 }
 
 #menu {
-    background-color: rgb(150, 133, 113);
+    background-color: rgb(204, 182, 157);
     width:300px;
     height:fit-content;
-    border: dashed 3px black;
-    padding: 5px;
+    border: dashed 4px black;
+    padding: 10px;
     margin:auto;
-}
-#main-title {
-    text-align: center;
 }
 #menu-title {
     margin:5px auto 5px auto;
+}
+.instructions {
+    background-color: rgb(204, 182, 157);
+    border: 4px black dashed;
+    width: 700px;
+    margin:10px auto auto auto;
+    padding: 10px;
 }
